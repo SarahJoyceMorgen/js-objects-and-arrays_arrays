@@ -8,7 +8,7 @@ const exampleArray = [1, "true"];
 // EXERCISE 2
 // Nest an array inside array nestedArray. After that nestedArray should contain an array as an element.
 
-const nestedArray = ["example", 10, true, [1 ,2 ,3];
+const nestedArray = ["example", 10, true, [1, 2, 3]];
 
 
 
@@ -30,7 +30,7 @@ fruits[0] = "mango"
 
 const nestedNumbers = [10, [20, 30, [40, 50]]];
 
-const nestedNumber = [1][2][1];
+const nestedNumber = nestedNumbers[1][2][1];
 
 // EXERCISE 6
 // Put "rat" onto the end of petsWithPush variable by using the array method `.push()`.
@@ -42,7 +42,7 @@ const count = petsWithPush.push("rat");
 // Use the pop method to remove the last item from fruitsWithPop.
 
 const fruitsWithPop = ["apple", "banana", "mango"];
-console.log(fruits.pop());
+console.log(fruitsWithPop.pop());
 
 // EXERCISE 8
 // Put "hamster" onto the start of unshiftedPets variable by using the array method unshift.
@@ -55,7 +55,7 @@ unshiftedPets.unshift("hamster");
 // Use the shift method to remove the first item from shiftedFruits.
 
 const shiftedFruits = ["apple", "banana", "mango"];
-const firstFruit.shift();
+const firstFruit = shiftedFruits.shift();
 
 export {
   exampleArray,
